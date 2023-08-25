@@ -1,0 +1,136 @@
+.joab-card-link {
+  text-decoration: none;
+}
+.job-card-container {
+  background-color: #272727;
+  padding: 14px;
+  margin-bottom: 21px;
+  border-radius: 16px;
+  width: 100%;
+  list-style-type: none;
+  color: #f1f5f9;
+}
+.job-card-company-logo-location-package-container {
+  display: flex;
+  align-items: center;
+}
+.job-card-company-logo {
+  width: 50px;
+  height: 60px;
+  margin-right: 16px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-card-title {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 8px;
+}
+.icon-rating-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0;
+}
+.fill-star-icon {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-right: 6px;
+}
+
+.job-card-rating {
+  font-size: 14px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+.bob-card-icons-location-emp-type-package-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.icons-location-emp-type-cards-container {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .job-card-company-logo {
+    width: 70px;
+    height: 90px;
+    margin-right: 26px;
+  }
+  .job-card-title {
+    font-size: 26px;
+  }
+  .fill-star-icon {
+    font-size: 28px;
+  }
+
+  .job-card-rating {
+    font-size: 21px;
+  }
+}
+
+.icon-location-card {
+  display: flex;
+  align-items: center;
+}
+.job-card-icons {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-right: 3px;
+}
+.job-card-loc {
+  font-size: 10px;
+  color: #f1f5f9;
+}
+.icon-emp-type-card {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+.job-card-package {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.job-card-line {
+  border: 0.2px solid #b6c5ff;
+}
+.job-card-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.job-card-job-description {
+  font-size: 10px;
+  color: #f1f5f9;
+}
+@media screen and (min-width: 768px) {
+  .job-card-icons {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  .job-card-loc {
+    font-size: 16px;
+  }
+  .icon-emp-type-card {
+    margin-left: 30px;
+  }
+  .job-card-package {
+    font-size: 18px;
+  }
+  .job-card-description {
+    font-size: 22px;
+  }
+  .job-card-job-description {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,126 @@
+.similar-jobs-details-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+  background-color: #272727;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 16px;
+  font-family: 'roboto';
+}
+.similar-jobs-logo-title-rating-card-container {
+  display: flex;
+  align-items: center;
+}
+.similar-job-company-logo {
+  width: 50px;
+  height: 70px;
+  margin-right: 10px;
+}
+.similar-job-title-rating-star-cards {
+  display: flex;
+  flex-direction: column;
+}
+.similar-jobs-names {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.similar-job-rating-star-card {
+  display: flex;
+  align-items: center;
+}
+.similar-jobs-rating-stars {
+  font-size: 16px;
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.similar-jobs-ratings {
+  font-size: 13px;
+  font-weight: 600;
+  color: #f1f5f9;
+}
+.similar-jobs-desc-loc-emp-ty-cards-container {
+  display: flex;
+  flex-direction: column;
+}
+.description-titles {
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.similar-job-description {
+  font-size: 16x;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+.similar-jobs-location-and-emp-type-container {
+  display: flex;
+  align-items: center;
+}
+.similar-jobs-location-card {
+  display: flex;
+  align-items: center;
+  margin-right: 28px;
+}
+.similar-locator {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #ffffff;
+}
+.similar-loc {
+  font-size: 13px;
+  font-weight: 400;
+  color: #f1f5f9;
+}
+.similar-cases {
+  font-size: 18px;
+  color: #ffffff;
+}
+.similar-emp-ty {
+  font-size: 13px;
+  font-weight: 400;
+  color: #f1f5f9;
+  margin-left: 6px;
+}
+@media screen and (min-width: 768px) {
+  .similar-jobs-details-container {
+    width: 33%;
+    padding: 16px;
+    margin-right: 35px;
+    margin-top: 20px;
+  }
+  .similar-job-company-logo {
+    width: 60px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .similar-jobs-names {
+    font-size: 21px;
+  }
+  .similar-jobs-rating-stars {
+    font-size: 22px;
+  }
+  .similar-jobs-ratings {
+    font-size: 18px;
+  }
+  .description-titles {
+    font-size: 28px;
+  }
+  .similar-job-description {
+    font-size: 22x;
+  }
+  ..similar-locator {
+    font-size: 24px;
+  }
+  .similar-loc {
+    font-size: 16px;
+  }
+  .similar-cases {
+    font-size: 24px;
+  }
+  .similar-emp-ty {
+    font-size: 16px;
+  }
+}
